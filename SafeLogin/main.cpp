@@ -7,12 +7,6 @@
 const std::string PASSWORD = "ffe9027e6e4aac5bf171820d26e5957578cb313497f18d417016e7fac803ff08";
 const int MAX_TRIES = 3;
 
-int _main()
-{
-	capture(generate_file_name());
-	system("pause");
-}
-
 int main()
 {
 	bool logged_in = false;
